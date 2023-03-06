@@ -1,0 +1,123 @@
+
+    body { 
+        padding: 0;
+        margin: 0;
+        background-image: url(images/mainbg.jpg);
+        background-size: cover; 
+        font-family: 'Raleway', sans-serif; 
+      } 
+
+      a, a:hover{
+        text-decoration: none;
+        } 
+        
+        .logo img {
+            width: 40px;
+        }
+        nav{
+            background: #222326;
+            padding: 5px 20px;
+            display: flex;
+            align-items: center;
+            }
+            nav a {
+            color: aliceblue;
+            }
+            nav a:hover{
+            color: #5C8EF2;
+            }
+            .logo {
+            flex: 1;
+            }
+            .logo a{
+                display: flex;
+                align-items: center;
+                font-size: 20px;
+                }
+                .logo a:hover{
+                color: aliceblue;
+                }
+    
+                .logo img{
+                    width: 40px;
+                    margin-right: 10px;
+                    }
+                    .menu{
+                    display: flex;
+                    align-items: center;
+                    list-style: none;
+                    }
+                    .menu li{
+                    padding: 15px 10px;
+                    font-size: 16px;
+                    }
+       
+
+table {
+    background-color: #212226;
+    display: flex;
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 100%;
+    color: aliceblue;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+
+tr th {
+    background-color: #3E60C1;
+    width: 650px;
+    border-collapse: collapse;
+}
+
+tr {
+    line-height: 95px;
+}
+
+tr th td {
+    border: 1px solid cornflowerblue;
+}
+
+h2 {
+      font-size: 100px;
+      font-weight: 700;
+      color: aliceblue;
+      display: flex;
+    height: 30px;
+    margin: auto;
+    
+    max-width: 15%;
+
+}
+
+button {
+
+    width: 150px;
+    padding: 8px 10px;
+    font-size: 15px; 
+    border: 0px;
+    background:  #788fff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    margin-left: 44%;
+    margin-right: 30%;
+}
+  
+  button:hover{
+    background: #077999;
+  }
+
+  a {
+    color: aliceblue;
+  }

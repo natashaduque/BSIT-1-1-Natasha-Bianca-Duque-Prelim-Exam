@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="registrationform.css">
+    </head>
+      
+    <body>
+        <nav>
+            <div class="logo">
+               <a href=""><img src="images/mylogo2.png" alt="logo"><b>NATDUQ</b></a>
+            </div>
+            <ul class="menu">
+                <li><a href="main.html">Main</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="registrationform.html">Register</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+
+
+
+            <div class="theform">
+            <div class="title">Registration Form<br><br>
+            Please fill up the details below to create your account!</div>
+    
+            <div class="inputform">
+            <div class="containerdetails">
+            <label>Username</label>
+            <input type="text" class="inputdetails" placeholder="Create your own Username" required>
+             
+        
+            <div class="containerdetails">
+            <label for="pass">Create your Password</label>
+            <input type="password" class="inputdetails" id="pass" name="pass" placeholder="Create your own Password" required>  
+            </div>  
+        
+        
+            <div class="containerdetails">
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" class="inputdetails"  id="confirmpassword" name="confirmpassword" placeholder="Confirm your Password" required>  
+            </div> 
+                       
+                       
+            <div class="containerdetails">
+            <label>Firstname</label>
+            <input type="text" class="inputdetails" placeholder="Enter your Firstname" required>
+            </div> 
+        
+            <div class="containerdetails">
+            <label>Lastname</label>
+            <input type="text" class="inputdetails" placeholder="Enter your Lastname" required>
+            </div> 
+        
+        
+            <div class="containerdetails">
+            <label for="age">Enter your Age:</label>
+            <input type="number" class="inputdetails" id="age" name="age" min="0" max="100" required >
+            </div> 
+        
+            <div class="containerdetails">
+            <label for="email">Enter your email:</label>
+            <input type="email" class="inputdetails" id="email" name="email" required >
+            </div>
+        
+        
+            <div class="containerdetails">
+            <label>Gender</label>
+            <div class="gender">
+            <select>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select>
+            </div>
+        
+            </div> 
+            <div class="containnerdetails">
+            <label for="photoinput">Upload your photo:</label>
+            <input type="file" class="inputdetails" id="photoinput" name="photoinput">
+            </div>
+
+            <div class="containerdetails">
+                <input type="submit" value="Register" class="btn">
+              </div>
+        </div> 
+    </body>
+</html>

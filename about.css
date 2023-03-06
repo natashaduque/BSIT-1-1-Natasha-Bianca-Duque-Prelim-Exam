@@ -1,0 +1,100 @@
+body { 
+    padding: 0;
+    margin: 0;
+    background-image: url(images/mainbg.jpg);
+    background-size: cover; 
+    font-family: 'Raleway', sans-serif; 
+  } 
+
+  a, a:hover{
+    text-decoration: none;
+    } 
+    
+    .logo img {
+        width: 40px;
+    }
+    nav{
+        background: #222326;
+        padding: 5px 20px;
+        display: flex;
+        align-items: center;
+        }
+        nav a {
+        color: aliceblue;
+        }
+        nav a:hover{
+        color: #5C8EF2;
+        }
+        .logo {
+        flex: 1;
+        }
+        .logo a{
+            display: flex;
+            align-items: center;
+            font-size: 20px;
+            }
+            .logo a:hover{
+            color: aliceblue;
+            }
+
+            .logo img{
+                width: 40px;
+                margin-right: 10px;
+                }
+                .menu{
+                display: flex;
+                align-items: center;
+                list-style: none;
+                }
+                .menu li{
+                padding: 15px 10px;
+                font-size: 16px;
+                }
+   
+   
+    .container{
+      max-width: 500px;
+      width: 100%;
+      background: #222326;
+      margin: 50px auto;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 2px 2px 4px rgba(4, 0, 12, 0.125);
+    }
+    
+    .container .heading1{
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 25px;
+      color:  aliceblue;
+      text-align: center;
+    }
+    .container .heading5{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 25px;
+        color:  aliceblue;
+        text-align: center;
+      }
+    p {
+        color: aliceblue;
+        text-align: center;
+    }
+
+    button {
+            
+            width: 100%;
+             padding: 8px 10px;
+            font-size: 15px; 
+            border: 0px;
+            background:  #6a13ff;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 3px;
+            outline: none;
+          }
+          
+          button:hover{
+            background: #077999;
+          }
+    
